@@ -17,7 +17,7 @@ module.exports = async (bot, message) => {
               .setTimestamp(new Date())
               .setFooter(`Used by ${message.author.username}`, message.author.displayAvatarURL({ format: 'png', dynamic: true, size: 1024 }));
               
-              let logchat = bot.channels.cache.get('818911722726490122')
+              let logchat = bot.channels.cache.get('')
               logchat.send(embed);   
        };
 
